@@ -1,0 +1,19 @@
+{
+  "name": "helper-clockmaker",
+  "version": "1.0.0",
+  "description": "Helper operations for clockmaker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jloveric/Helper.git"
+  },
+  "author": "John Loverich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jloveric/Helper/issues"
+  },
+  "homepage": "https://github.com/jloveric/Helper#readme"
+}
