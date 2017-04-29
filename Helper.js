@@ -1,9 +1,9 @@
 "use strict";
 
-let Base = require('sb/etc/Base.js')
-let Logger = require('sb/etc/Logger.js')('Helper')
-let SbEvent = require('sb/etc/SbEvent.js');
-let StopWords = require('sb/etc/Stopwords.js');
+let Base = require('./Base.js')
+let Logger = require('./Logger.js')('Helper')
+let SbEvent = require('./SbEvent.js');
+let StopWords = require('./Stopwords.js');
 let BinarySearch = require("binary-search");
 let debug = require('debug')('helper')
 
