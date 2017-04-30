@@ -1,6 +1,6 @@
 "use strict";
 
-let Logger = require('sb/etc/Logger.js')('SbEvent')
+let Logger = require('./Logger.js')('SbEvent')
 
 const EventEmitter = require('events');
 

@@ -1,5 +1,6 @@
 "use strict";
 
+let moduleAvailable = require('module-available')
 let Base = require('./Base.js');
 let logger;
 
@@ -11,9 +12,18 @@ module.exports = function (moduleName) {
     if (Base.isUsingNode()) {
         //require('events').EventEmitter.prototype._maxListeners = 100;
         process.setMaxListeners(0)
-        let GetConfigValues = require('sb/etc/GetConfigValues.js')
 
-        let gc = new GetConfigValues();
+        let gc = {
+            logging : { 
+                file: 'logger.log',
+                level: 'error' 
+            }
+        }
+
+        if (moduleAvailable('sb/etc/GetConfigValues.js')) {
+            let GetConfigValues = require('sb/etc/GetConfigValues.js')
+            gc = new GetConfigValues();
+        }
 
         //if(false) {
         let winston = require('winston')
