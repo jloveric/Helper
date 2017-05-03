@@ -2,7 +2,7 @@
 
 module.exports = {
 	Helper : require('./Helper.js'),
-	SbEvents : require('./SbEvents.js'),
+	SbEvent : require('./SbEvent.js'),
 	Logger : require('./Logger.js'),
 	Base : require('./Base.js'),
 	SingleLetterAbbreviations : require('./SingleLetterAbbreviations.js'),
