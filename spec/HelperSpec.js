@@ -4,9 +4,6 @@ let helper = require('../Helper.js');
 let StopWords = require('../Stopwords');
 let abbreviations = require('../SingleLetterAbbreviations.js')
 
-/*let GetConfigValues = require('sb/etc/GetConfigValues.js')
-let gc = new GetConfigValues();*/
-
 describe("helper", function () {
 
 	it("Should tokenize new lines properly", function () {
