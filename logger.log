@@ -178,3 +178,9 @@
      [32m'    at Module.load (module.js:487:32)'[39m,
      [32m'    at tryModuleLoad (module.js:446:12)'[39m,
      [32m'    at Function.Module._load (module.js:438:3)'[39m ] }
+[31merror[39m: [Helper] Test error
+[31merror[39m: [Helper] Test error 2
+[31merror[39m: [Helper] Property c is undefined
+[31merror[39m: [Helper] Test error
+[31merror[39m: [Helper] Test error 2
+[31merror[39m: [Helper] Property c is undefined
