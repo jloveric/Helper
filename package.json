@@ -1,6 +1,6 @@
 {
   "name": "helper-clockmaker",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Helper operations for clockmaker.",
   "main": "index.js",
   "scripts": {
