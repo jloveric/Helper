@@ -1,6 +1,6 @@
 "use strict";
 
-let Logger = require('sb/etc/Logger.js')('ExitHandler');
+let Logger = require('./Logger.js')('ExitHandler');
 
 //function noOp() { };
 
