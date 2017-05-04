@@ -16,8 +16,8 @@ class GetConfigValues {
 		if (!instance) {
 
 			let fs = require('fs');
-			this.baseDir = __dirname + '/';
-			this.configFilename = this.baseDir + '../../config.json';
+			this.baseDir = process.cwd()+'/';
+			this.configFilename = this.baseDir + 'config.json';
 			let obj = JSON.parse(fs.readFileSync(this.configFilename, 'utf8'));
 
 			//Copy the elements of the object to this
