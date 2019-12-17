@@ -20,8 +20,8 @@ module.exports = function (moduleName) {
             }
         }
 
-        if (moduleAvailable('sb/etc/GetConfigValues.js')) {
-            let GetConfigValues = require('sb/etc/GetConfigValues.js')
+        if (moduleAvailable('./GetConfigValues.js')) {
+            let GetConfigValues = require('./GetConfigValues.js')
             gc = new GetConfigValues();
         }
 

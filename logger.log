@@ -382,3 +382,8 @@
 [31merror[39m: [Helper] Test error 2
 [31merror[39m: [Helper] Property c is undefined
 [31merror[39m: [LoggerSpec] Testing the Logger
+[31merror[39m: [CreateMappingConfig] Mapping validation failed, element : slug not found
+[31merror[39m: [Helper] Test error
+[31merror[39m: [Helper] Test error 2
+[31merror[39m: [Helper] Property c is undefined
+[31merror[39m: [LoggerSpec] Testing the Logger
